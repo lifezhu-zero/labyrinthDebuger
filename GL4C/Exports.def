@@ -1,0 +1,35 @@
+LIBRARY
+
+EXPORTS PPSM_AllocShaderManager
+EXPORTS PPSM_ReleaseShaderManager
+EXPORTS PPSM_InitializeStockShaders
+EXPORTS PPSM_GetStockShader
+EXPORTS PPSM_UseStockShader
+EXPORTS PPSM_LoadShaderPair
+EXPORTS PPSM_LoadShaderPairSrc
+EXPORTS PPSM_LoadShaderPairWithAttributes
+EXPORTS PPSM_LoadShaderPairSrcWithAttributes
+EXPORTS PPSM_LookupShader
+
+EXPORTS GLB_Alloc
+EXPORTS GLB_Release
+EXPORTS GLB_Begin
+EXPORTS GLB_End
+EXPORTS GLB_CopyVertexData3f
+EXPORTS GLB_CopyNormalDataf
+EXPORTS GLB_CopyColorData4f
+EXPORTS GLB_CopyTexCoordData2f
+EXPORTS GLB_CopyVertexData3f2
+EXPORTS GLB_CopyNormalDataf2
+EXPORTS GLB_CopyColorData4f2
+EXPORTS GLB_CopyTexCoordData2f2
+EXPORTS GLB_Draw
+EXPORTS GLB_Reset
+EXPORTS GLB_Vertex3f
+EXPORTS GLB_Vertex3fv
+EXPORTS GLB_Normal3f
+EXPORTS GLB_Normal3fv
+EXPORTS GLB_Color4f
+EXPORTS GLB_Color4fv
+EXPORTS GLB_MultiTexCoord2f
+EXPORTS GLB_MultiTexCoord2fv

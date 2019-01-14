@@ -1,0 +1,36 @@
+LIBRARY
+
+EXPORTS AllocMaze
+EXPORTS RegularDim
+EXPORTS RegularDimForMaze
+EXPORTS InitializeDoor
+EXPORTS CopyDim
+EXPORTS FindRoom
+EXPORTS RegularDimForMaze
+EXPORTS RegularDim
+EXPORTS FreeRoom
+EXPORTS FreeMaze
+EXPORTS FreePath
+EXPORTS AllocRoomSet
+EXPORTS FreeRoomSet
+EXPORTS CreateDoorSet
+EXPORTS FreeDoorSet
+EXPORTS RoomInitialized
+
+EXPORTS GetNeighborRooms
+EXPORTS GetRoomDoors
+EXPORTS GetNeighborNotInPath
+EXPORTS RandomSelectRoom
+EXPORTS MoveRoomInPathRoom
+EXPORTS AllocPathNode
+EXPORTS AllocPath
+EXPORTS PreparePath
+EXPORTS FreePath
+EXPORTS RoomInPath
+EXPORTS DumpPathRoom
+EXPORTS DumpRoom
+EXPORTS DumpDoor
+EXPORTS GetRoomDoorsEx
+EXPORTS GetDoorBetweenRooms
+EXPORTS GetAllDoorsToRoomsNotInPath
+EXPORTS BuildPath

@@ -42,8 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dimemsion.cs" />
+    <Compile Include="IDivision.cs" />
+    <Compile Include="MazeDivision.cs" />
+    <Compile Include="MazeDoor.cs" />
+    <Compile Include="MazeEdge.cs" />
+    <Compile Include="Maze.cs" />
+    <Compile Include="MazeCreator.cs" />
+    <Compile Include="MazeSpace.cs" />
+    <Compile Include="Path.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandFunc.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="VariantArray.cs" />
+    <Compile Include="Walk.cs" />
+    <Compile Include="MazeWall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
